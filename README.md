@@ -8,6 +8,8 @@ sudo nginx -t to control syntax line
 sudo systemctl restart nginx
 sudo ufw allow 8090/tcp
 sudo systemctl status nginx.service
+copy all 4 files into var/www/html 
+should work now enjoy!
 
 using a simple nginx webserver 
 
