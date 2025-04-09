@@ -14,4 +14,4 @@ should work now enjoy!
 using a simple nginx webserver 
 http://gaetanomanduca.tech:8090
 
-Azure_Quiz with github and linkedin footer thx https://github.com/korny861 for your help!
+Azure_Quiz with github and linkedin footer thx https://github.com/korny861 for your collaboration!
