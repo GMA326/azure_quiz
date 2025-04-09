@@ -3,5 +3,11 @@ sudo apt install update
 sudo apt install nginx
 if you use port 80 go into /etc/nginx/sites-available/ 
 sudo nano default and change ports from 80 to 8080 or 8090 in listen 
+sudo nginx -t to control syntax line
+sudo systemctl restart nginx
+sudo ufw allow 8090/tcp
+sudo systemctl status nginx.service
+
 using a simple nginx webserver 
+
 Azure_Quiz with github and linkedin footer thx @korny
