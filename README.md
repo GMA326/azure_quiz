@@ -1,2 +1,3 @@
 # azure_quiz
-Azure_Quiz with github and linkedin footer
+using a simple nginx webserver 
+Azure_Quiz with github and linkedin footer thx @korny
