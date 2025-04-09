@@ -12,5 +12,6 @@ copy all 4 files into var/www/html
 should work now enjoy!
 
 using a simple nginx webserver 
+http://gaetanomanduca.tech:8090
 
-Azure_Quiz with github and linkedin footer thx @korny
+Azure_Quiz with github and linkedin footer thx https://github.com/korny861 for your help!
