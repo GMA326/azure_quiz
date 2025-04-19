@@ -616,4 +616,369 @@
         "explanation": "SaaS liefert Softwareanwendungen über das Internet, typischerweise auf Abonnementbasis. Der Anbieter verwaltet die gesamte zugrunde liegende Infrastruktur und Plattform."
       }
     ]   
-    
+    [
+  {
+    "question": "Was ist Cloud Computing?",
+    "options": [
+      "Die lokale Ausführung von Software.",
+      "Die Bereitstellung von IT-Diensten über das Internet.",
+      "Die physische Wartung von Servern.",
+      "Eine bestimmte Art von Hardware."
+    ],
+    "correctAnswer": "Die Bereitstellung von IT-Diensten über das Internet.",
+    "explanation": "Cloud Computing ermöglicht den Zugriff auf Ressourcen wie Server, Speicher und Anwendungen über das Netzwerk."
+  },
+  {
+    "question": "Nennen Sie die drei Hauptmodelle des Cloud Computing.",
+    "options": [
+      "Public, Private, Hybrid",
+      "IaaS, PaaS, SaaS",
+      "Frontend, Backend, Middleware",
+      "Skalierbar, Flexibel, Kostengünstig"
+    ],
+    "correctAnswer": "Public, Private, Hybrid",
+    "explanation": "Die drei Hauptmodelle sind Public Cloud (öffentlich zugänglich), Private Cloud (für eine Organisation) und Hybrid Cloud (eine Kombination)."
+  },
+  {
+    "question": "Was ist eine Azure Region?",
+    "options": [
+      "Ein globaler Standort von Microsoft.",
+      "Ein geografisches Gebiet mit mindestens einem Rechenzentrum.",
+      "Eine logische Gruppierung von Ressourcen.",
+      "Ein einzelner Server in einem Rechenzentrum."
+    ],
+    "correctAnswer": "Ein geografisches Gebiet mit mindestens einem Rechenzentrum.",
+    "explanation": "Eine Azure Region ist ein abgegrenztes geografisches Gebiet, das mindestens ein Azure-Rechenzentrum umfasst."
+  },
+  {
+    "question": "Was ist Azure Active Directory (Azure AD)? Wozu dient es?",
+    "options": [
+      "Ein Dienst zur Bereitstellung virtueller Maschinen.",
+      "Ein cloudbasierter Identitäts- und Zugriffsverwaltungsdienst.",
+      "Ein Dienst zur Speicherung großer Datenmengen.",
+      "Ein Tool zur Überwachung von Azure-Ressourcen."
+    ],
+    "correctAnswer": "Ein cloudbasierter Identitäts- und Zugriffsverwaltungsdienst.",
+    "explanation": "Azure AD bietet Identitätsverwaltung und Zugriffskontrolle für Cloud-Anwendungen."
+  },
+  {
+    "question": "Was ist ein Azure Availability Zone?",
+    "options": [
+      "Ein logischer Bereich innerhalb einer Azure Region, der vor Fehlern geschützt ist.",
+      "Eine globale Netzwerkverbindung zwischen Azure Regions.",
+      "Ein Dienst zur automatischen Skalierung von Anwendungen.",
+      "Eine Methode zur Kostenoptimierung in Azure."
+    ],
+    "correctAnswer": "Ein logischer Bereich innerhalb einer Azure Region, der vor Fehlern geschützt ist.",
+    "explanation": "Availability Zones sind physisch getrennte Rechenzentren innerhalb einer Azure Region, die hohe Verfügbarkeit bieten."
+  },
+  {
+    "question": "Was ist eine Azure Resource Group?",
+    "options": [
+      "Eine Sammlung von virtuellen Maschinen.",
+      "Ein Container, der verwandte Ressourcen für eine Azure-Lösung enthält.",
+      "Ein Dienst zur Überwachung der Ressourcennutzung.",
+      "Ein Tool zur Automatisierung von Bereitstellungen."
+    ],
+    "correctAnswer": "Ein Container, der verwandte Ressourcen für eine Azure-Lösung enthält.",
+    "explanation": "Resource Groups dienen zur logischen Organisation und Verwaltung von Azure-Ressourcen."
+  },
+  {
+    "question": "Welches Cloud Computing Modell wird durch Azure Virtual Machines repräsentiert?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Function as a Service (FaaS)"
+    ],
+    "correctAnswer": "Infrastructure as a Service (IaaS)",
+    "explanation": "IaaS bietet grundlegende Computerinfrastruktur wie virtuelle Maschinen und Speicher."
+  },
+  {
+    "question": "Welches Cloud Computing Modell wird durch Azure App Service repräsentiert?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Function as a Service (FaaS)"
+    ],
+    "correctAnswer": "Platform as a Service (PaaS)",
+    "explanation": "PaaS bietet eine Plattform für die Entwicklung, Ausführung und Verwaltung von Anwendungen ohne die Notwendigkeit, die Infrastruktur zu verwalten."
+  },
+  {
+    "question": "Welches Cloud Computing Modell wird durch Microsoft 365 repräsentiert?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Function as a Service (FaaS)"
+    ],
+    "correctAnswer": "Software as a Service (SaaS)",
+    "explanation": "SaaS bietet Softwareanwendungen, die über das Internet bereitgestellt werden."
+  },
+  {
+    "question": "Was ist Azure Blob Storage?",
+    "options": [
+      "Ein Dienst zum Hosten von Webanwendungen.",
+      "Ein hochgradig skalierbarer Objektspeicherdienst für unstrukturierte Daten.",
+      "Eine relationale Datenbank in der Cloud.",
+      "Ein Dienst zur Nachrichtenübermittlung zwischen Anwendungen."
+    ],
+    "correctAnswer": "Ein hochgradig skalierbarer Objektspeicherdienst für unstrukturierte Daten.",
+    "explanation": "Blob Storage ist für die Speicherung großer Mengen unstrukturierter Daten wie Bilder, Videos und Dokumente konzipiert."
+  },
+  {
+    "question": "Was ist Azure Virtual Network (VNet)?",
+    "options": [
+      "Ein physisches Netzwerk in einem Azure-Rechenzentrum.",
+      "Eine logisch isolierte Netzwerkumgebung in Azure.",
+      "Ein Dienst zur Überwachung des Netzwerkverkehrs.",
+      "Ein Tool zur Konfiguration von Firewalls."
+    ],
+    "correctAnswer": "Eine logisch isolierte Netzwerkumgebung in Azure.",
+    "explanation": "VNets ermöglichen die Erstellung eines privaten Netzwerks in der Cloud."
+  },
+  {
+    "question": "Was ist eine Network Security Group (NSG)?",
+    "options": [
+      "Eine Gruppe von virtuellen Maschinen.",
+      "Eine virtuelle Firewall, die den Netzwerkverkehr zu und von Azure-Ressourcen steuert.",
+      "Ein Dienst zur Lastverteilung des Netzwerkverkehrs.",
+      "Ein Tool zur Diagnose von Netzwerkproblemen."
+    ],
+    "correctAnswer": "Eine virtuelle Firewall, die den Netzwerkverkehr zu und von Azure-Ressourcen steuert.",
+    "explanation": "NSGs verwenden Sicherheitsregeln, um den eingehenden und ausgehenden Netzwerkverkehr zu filtern."
+  },
+  {
+    "question": "Was ist Azure App Service Plan?",
+    "options": [
+      "Die Konfiguration der virtuellen Maschinen, die Ihre App Service-Apps ausführen.",
+      "Ein Plan zur Kostenoptimierung für App Service.",
+      "Ein Dienst zur Überwachung der Leistung von App Service-Apps.",
+      "Ein Tool zur Bereitstellung von App Service-Apps."
+    ],
+    "correctAnswer": "Die Konfiguration der virtuellen Maschinen, die Ihre App Service-Apps ausführen.",
+    "explanation": "Der App Service Plan definiert die Größe, Funktionen und Kosten der zugrunde liegenden Compute-Ressourcen für Ihre Apps."
+  },
+  {
+    "question": "Was ist Azure Functions?",
+    "options": [
+      "Ein Dienst zum Hosten von Webanwendungen.",
+      "Ein serverloser Compute-Dienst, mit dem Sie Code ausführen können, ohne Infrastruktur verwalten zu müssen.",
+      "Eine relationale Datenbank in der Cloud.",
+      "Ein Dienst zur Speicherung großer Datenmengen."
+    ],
+    "correctAnswer": "Ein serverloser Compute-Dienst, mit dem Sie Code ausführen können, ohne Infrastruktur verwalten zu müssen.",
+    "explanation": "Azure Functions ermöglicht die Ausführung von Code als Reaktion auf Ereignisse oder Zeitpläne."
+  },
+  {
+    "question": "Was ist Azure Logic Apps?",
+    "options": [
+      "Ein Dienst zum Erstellen von visuellen Workflows und Integrationen zwischen Anwendungen und Diensten.",
+      "Ein Dienst zum Hosten von containerisierten Anwendungen.",
+      "Eine NoSQL-Datenbank in der Cloud.",
+      "Ein Dienst zur Überwachung von API-Aufrufen."
+    ],
+    "correctAnswer": "Ein Dienst zum Erstellen von visuellen Workflows und Integrationen zwischen Anwendungen und Diensten.",
+    "explanation": "Logic Apps bieten eine grafische Oberfläche zum Entwerfen und Automatisieren von Workflows."
+  },
+  {
+    "question": "Was ist Azure Cosmos DB?",
+    "options": [
+      "Eine relationale Datenbank in der Cloud.",
+      "Eine global verteilte, multimodel-Datenbankdienst von Microsoft.",
+      "Ein Dienst zur Speicherung von Blob-Daten.",
+      "Ein Dienst zur Verwaltung von virtuellen Netzwerken."
+    ],
+    "correctAnswer": "Eine global verteilte, multimodel-Datenbankdienst von Microsoft.",
+    "explanation": "Cosmos DB ist eine NoSQL-Datenbank, die verschiedene Datenmodelle und globale Verteilung unterstützt."
+  },
+  {
+    "question": "Was ist Azure SQL Database?",
+    "options": [
+      "Eine NoSQL-Datenbank in der Cloud.",
+      "Ein verwalteter relationaler Datenbankdienst, der auf der Microsoft SQL Server-Engine basiert.",
+      "Ein Dienst zur Speicherung von Schlüssel-Wert-Paaren.",
+      "Ein Dienst zur Nachrichtenwarteschlange."
+    ],
+    "correctAnswer": "Ein verwalteter relationaler Datenbankdienst, der auf der Microsoft SQL Server-Engine basiert.",
+    "explanation": "Azure SQL Database ist ein PaaS-Angebot für relationale Datenbanken."
+  },
+  {
+    "question": "Was ist Azure Key Vault?",
+    "options": [
+      "Ein Dienst zur Speicherung großer Datenmengen.",
+      "Ein sicherer Speicher zum Verwalten von Geheimnissen, Schlüsseln und Zertifikaten.",
+      "Ein Dienst zur Überwachung von Sicherheitsrisiken.",
+      "Ein Tool zur Durchsetzung von Compliance-Richtlinien."
+    ],
+    "correctAnswer": "Ein sicherer Speicher zum Verwalten von Geheimnissen, Schlüsseln und Zertifikaten.",
+    "explanation": "Key Vault hilft beim Schutz sensibler Informationen in der Cloud."
+  },
+  {
+    "question": "Was ist Azure Monitor?",
+    "options": [
+      "Ein Dienst zur Bereitstellung von virtuellen Maschinen.",
+      "Ein umfassender Überwachungs- und Telemetriedienst für Azure-Ressourcen und Anwendungen.",
+      "Ein Dienst zur Verwaltung von Benutzeridentitäten.",
+      "Ein Tool zur Kostenanalyse."
+    ],
+    "correctAnswer": "Ein umfassender Überwachungs- und Telemetriedienst für Azure-Ressourcen und Anwendungen.",
+    "explanation": "Azure Monitor sammelt und analysiert Metriken, Protokolle und Ablaufverfolgungen."
+  },
+  {
+    "question": "Was ist Azure Advisor?",
+    "options": [
+      "Ein Dienst zur Bereitstellung von Empfehlungen zur Optimierung von Azure-Ressourcen in Bezug auf Kosten, Sicherheit, Zuverlässigkeit und Leistung.",
+      "Ein Dienst zur Verwaltung von Azure-Richtlinien.",
+      "Ein Tool zur Automatisierung von Bereitstellungen.",
+      "Ein Dienst zur Sicherung von Azure-Ressourcen."
+    ],
+    "correctAnswer": "Ein Dienst zur Bereitstellung von Empfehlungen zur Optimierung von Azure-Ressourcen in Bezug auf Kosten, Sicherheit, Zuverlässigkeit und Leistung.",
+    "explanation": "Azure Advisor analysiert Ihre Azure-Konfiguration und Nutzung und gibt Empfehlungen zur Verbesserung."
+  },
+  {
+    "question": "Was sind Azure Policies?",
+    "options": [
+      "Regeln, die die Konfiguration und den Einsatz von Azure-Ressourcen steuern.",
+      "Ein Dienst zur Überwachung der Ressourcennutzung.",
+      "Ein Tool zur Verwaltung von Benutzerzugriffsberechtigungen.",
+      "Ein Dienst zur Automatisierung von Aufgaben."
+    ],
+    "correctAnswer": "Regeln, die die Konfiguration und den Einsatz von Azure-Ressourcen steuern.",
+    "explanation": "Azure Policies helfen bei der Durchsetzung von Organisationsstandards und der Einhaltung von Compliance."
+  },
+  {
+    "question": "Was ist Azure Blueprints?",
+    "options": [
+      "Ein Dienst zum Erstellen von wiederholbaren Sätzen von Azure-Ressourcen, Richtlinien und Bereitstellungen.",
+      "Ein Tool zur Visualisierung von Azure-Architekturen.",
+      "Ein Dienst zur Migration von On-Premises-Ressourcen zu Azure.",
+      "Ein Dienst zur Verwaltung von Azure-Kosten."
+    ],
+    "correctAnswer": "Ein Dienst zum Erstellen von wiederholbaren Sätzen von Azure-Ressourcen, Richtlinien und Bereitstellungen.",
+    "explanation": "Azure Blueprints ermöglichen die schnelle und konsistente Bereitstellung von Cloud-Umgebungen."
+  },
+  {
+    "question": "Was ist Role-Based Access Control (RBAC) in Azure?",
+    "options": [
+      "Eine Methode zur Verschlüsselung von Daten im Ruhezustand.",
+      "Ein Autorisierungssystem, das den Zugriff auf Azure-Ressourcen basierend auf zugewiesenen Rollen verwaltet.",
+      "Ein Dienst zur Überwachung von Benutzeraktivitäten.",
+      "Eine Technik zur Verbesserung der Netzwerkleistung."
+    ],
+    "correctAnswer": "Ein Autorisierungssystem, das den Zugriff auf Azure-Ressourcen basierend auf zugewiesenen Rollen verwaltet.",
+    "explanation": "RBAC ermöglicht die präzise Steuerung, wer welche Aktionen auf welche Azure-Ressourcen ausführen kann."
+  },
+  {
+    "question": "Was ist Multi-Factor Authentication (MFA)?",
+    "options": [
+      "Eine Methode zur Verschlüsselung von Daten während der Übertragung.",
+      "Ein Sicherheitsverfahren, das zwei oder mehr Nachweisformen erfordert, um die Identität eines Benutzers zu überprüfen.",
+      "Ein Dienst zur Überwachung von Anmeldeversuchen.",
+      "Eine Technik zur Verbesserung der Anwendungsleistung."
+    ],
+    "correctAnswer": "Ein Sicherheitsverfahren, das zwei oder mehr Nachweisformen erfordert, um die Identität eines Benutzers zu überprüfen.",
+    "explanation": "MFA erhöht die Sicherheit, indem es eine zusätzliche Sicherheitsebene zum Anmeldeprozess hinzufügt."
+  },
+  {
+    "question": "Was ist Azure CLI?",
+    "options": [
+      "Eine grafische Benutzeroberfläche zur Verwaltung von Azure-Ressourcen.",
+      "Ein Befehlszeilentool zur Verwaltung von Azure-Ressourcen.",
+      "Ein Dienst zur Überwachung der Ressourcennutzung.",
+      "Ein Tool zur Erstellung von ARM-Vorlagen."
+    ],
+    "correctAnswer": "Ein Befehlszeilentool zur Verwaltung von Azure-Ressourcen.",
+    "explanation": "Azure CLI ermöglicht die Verwaltung von Azure-Diensten über Befehle."
+  },
+  {
+    "question": "Was ist Azure PowerShell?",
+    "options": [
+      "Ein Befehlszeilentool, das auf PowerShell basiert und zur Verwaltung von Azure-Ressourcen verwendet wird.",
+      "Eine grafische Benutzeroberfläche zur Verwaltung von Azure-Ressourcen.",
+      "Ein Dienst zur Automatisierung von Bereitstellungen.",
+      "Ein Tool zur Kostenanalyse."
+    ],
+    "correctAnswer": "Ein Befehlszeilentool, das auf PowerShell basiert und zur Verwaltung von Azure-Ressourcen verwendet wird.",
+    "explanation": "Azure PowerShell ermöglicht die Verwaltung von Azure-Diensten mithilfe von PowerShell-Cmdlets."
+  },
+  {
+    "question": "Was sind ARM-Vorlagen (Azure Resource Manager Templates)?",
+    "options": [
+      "JSON-Dateien, die die Infrastruktur und Konfiguration Ihrer Azure-Lösung deklarativ definieren.",
+      "Befehlszeilenbefehle zur Verwaltung von Azure-Ressourcen.",
+      "Grafische Darstellungen Ihrer Azure-Architektur.",
+      "Berichte über die Nutzung Ihrer Azure-Ressourcen."
+    ],
+    "correctAnswer": "JSON-Dateien, die die Infrastruktur und Konfiguration Ihrer Azure-Lösung deklarativ definieren.",
+    "explanation": "ARM-Vorlagen ermöglichen die Infrastructure as Code (IaC)-Praxis in Azure."
+  },
+  {
+    "question": "Was ist Azure Container Instances (ACI)?",
+    "options": [
+      "Ein Dienst zum Hosten von virtuellen Maschinen in Containern.",
+      "Ein Dienst, der das Ausführen von Docker-Containern in Azure ohne die Notwendigkeit der Verwaltung von Servern ermöglicht.",
+      "Ein Dienst zur Orchestrierung von Containern.",
+      "Ein Dienst zur Speicherung von Container-Images."
+    ],
+    "correctAnswer": "Ein Dienst, der das Ausführen von Docker-Containern in Azure ohne die Notwendigkeit der Verwaltung von Servern ermöglicht.",
+    "explanation": "ACI bietet eine einfache Möglichkeit, einzelne Container in Azure auszuführen."
+  },
+  {
+    "question": "Was ist Azure Kubernetes Service (AKS)?",
+    "options": [
+      "Ein Dienst zum Ausführen einzelner Docker-Container.",
+      "Ein vollständig verwalteter Kubernetes-Dienst zum Bereitstellen und Verwalten von containerisierten Anwendungen.",
+      "Ein Dienst zur Speicherung von Container-Images.",
+      "Ein Dienst zur Erstellung von Container-Images."
+    ],
+    "correctAnswer": "Ein vollständig verwalteter Kubernetes-Dienst zum Bereitstellen und Verwalten von containerisierten Anwendungen.",
+    "explanation": "AKS vereinfacht die Bereitstellung, Verwaltung und Skalierung von Kubernetes-Clustern in Azure."
+  },
+  {
+    "question": "Welche Vorteile bietet die Cloud hinsichtlich Skalierbarkeit?",
+    "options": [
+      "Ressourcen können je nach Bedarf automatisch angepasst werden.",
+      "Ressourcen sind immer statisch.",
+      "Es gibt keine Skalierungsmöglichkeiten.",
+      "Nur manuelle Skalierung ist möglich."
+    ],
+    "correctAnswer": "Ressourcen können je nach Bedarf automatisch angepasst werden.",
+    "explanation": "Cloud-Dienste bieten elastische Skalierbarkeit, um Lastspitzen abzufangen."
+  },
+  {
+    "question": "Was versteht man unter dem Prinzip 'Pay-as-you-go' in Azure?",
+    "options": [
+      "Man zahlt nur für die tatsächlich genutzten Ressourcen.",
+      "Man zahlt eine monatliche Pauschale unabhängig von der Nutzung.",
+      "Alle Ressourcen sind kostenlos.",
+      "Man zahlt im Voraus für das gesamte Jahr."
+    ],
+    "correctAnswer": "Man zahlt nur für die tatsächlich genutzten Ressourcen.",
+    "explanation": "Das Pay-as-you-go-Modell ermöglicht flexible und bedarfsgerechte Abrechnung."
+  },
+  {
+    "question": "Was ist das Azure Trust Center?",
+    "options": [
+      "Eine zentrale Anlaufstelle für Informationen zu Sicherheit, Datenschutz und Compliance in Azure.",
+      "Ein Tool zur Kostenoptimierung.",
+      "Ein Dienst zur Migration von Daten.",
+      "Eine Überwachungsplattform für Azure-Ressourcen."
+    ],
+    "correctAnswer": "Eine zentrale Anlaufstelle für Informationen zu Sicherheit, Datenschutz und Compliance in Azure.",
+    "explanation": "Das Azure Trust Center informiert über die Einhaltung von Standards und Zertifizierungen."
+  },
+  {
+    "question": "Was ist Azure Cost Management?",
+    "options": [
+      "Ein Dienst zur Überwachung und Verwaltung von Azure-Ausgaben.",
+      "Ein Tool zur Automatisierung von Deployments.",
+      "Ein Dienst zur Sicherung von Daten.",
+      "Ein Identitätsmanagementsystem."
+    ],
+    "correctAnswer": "Ein Dienst zur Überwachung und Verwaltung von Azure-Ausgaben.",
+    "explanation": "Azure Cost Management hilft, Kosten zu kontrollieren und Budgets einzuhalten."
+  }
+]
+
